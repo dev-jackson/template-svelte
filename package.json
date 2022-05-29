@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "svelte": "^3.48.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "svelte-loader": "^3.1.2",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
