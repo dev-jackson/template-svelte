@@ -4,7 +4,8 @@
   "description": "Template my config svelte",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
   },
   "dependencies": {
     "svelte": "^3.48.0"
@@ -17,7 +18,8 @@
     "html-webpack-plugin": "^5.5.0",
     "svelte-loader": "^3.1.2",
     "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
   },
   "keywords": [
     "javascript",

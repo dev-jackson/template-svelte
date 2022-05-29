@@ -8,7 +8,7 @@ module.exports = {
         filename: 'bundle.js'
     },
     resolve: {
-        extension: ['*', '.mjs', '.js', '.svelte']
+        extensions: ['*', '.mjs', '.js', '.svelte']
     },
     module: {
         rules: [
@@ -16,7 +16,7 @@ module.exports = {
                 test: /\.js?$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: 'bable-loader'
+                    loader: 'babel-loader'
                 }
             },
             {
