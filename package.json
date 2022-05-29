@@ -1,4 +1,11 @@
 {
+  "name": "template-sveltejs",
+  "version": "1.0.0",
+  "description": "Template my config svelte",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "svelte": "^3.48.0"
   },
@@ -11,5 +18,12 @@
     "svelte-loader": "^3.1.2",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
-  }
+  },
+  "keywords": [
+    "javascript",
+    "svelte",
+    "npm"
+  ],
+  "author": "Angel Jackson Sanchez",
+  "license": "MIT"
 }
