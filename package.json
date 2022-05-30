@@ -8,7 +8,8 @@
     "start": "webpack-dev-server --open --mode development"
   },
   "dependencies": {
-    "svelte": "^3.48.0"
+    "svelte": "^3.48.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.2",
