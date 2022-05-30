@@ -5,10 +5,12 @@
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development",
+    "env:dev": "env-cmd npm run dev"
   },
   "dependencies": {
     "svelte": "^3.48.0",
+    "svelte-environment-variables": "^1.0.4",
     "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {

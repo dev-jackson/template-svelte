@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const includeEnv = require('svelte-environment-variables');
+const { DefinePlugin } = require('webpack');
 
 module.exports = {
     entry: './src/index.js',
@@ -33,6 +35,9 @@ module.exports = {
             inject: true,
             template: './public/index.html',
             filename: './index.html'
+        }),
+        new DefinePlugin({
+            ...includeEnv()
         })
     ]
 }
